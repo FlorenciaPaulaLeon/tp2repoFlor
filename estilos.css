@@ -1,0 +1,58 @@
+    /* Hero section personalizada */
+    .hero-section {
+        background-image: url(img/fondo.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+  
+      /* Botón de hamburguesa flotante */
+      .floating-menu {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+      }
+  
+      /* Estilo personalizado para los links del nav */
+      .navbar-nav .nav-link {
+        border: 1px solid white; /* Contorno blanco */
+        padding: 5px 10px;
+        margin-right: 10px;
+        border-radius: 5px; /* Bordes redondeados */
+        color: white;
+        transition: background-color 0.3s ease;
+      }
+  
+      .navbar-nav .nav-link:hover {
+        background-color: white;
+        color: black;
+      }
+
+    body{ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  background-image: url(img/fondo.jpg);
+  color: white;
+ 
+}
+/* Estilo del footer */
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

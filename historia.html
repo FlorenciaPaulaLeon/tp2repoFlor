@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Su Historia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Para el fondo oscuro y superposición */
+        .hero-section {
+            background-image: url('tu-imagen-de-fondo.jpg'); /* Cambia por tu imagen */
+            background-size: cover;
+            background-position: center;
+            padding: 50px 0;
+            position: relative;
+            color: white;
+        }
+        /* Overlay oscuro */
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        /* Para mantener el contenido en primer plano */
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        /* Estilo de la imagen redonda */
+        .rounded-image {
+            width: 100%;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+<header> <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">BA Paste Up</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="murales.html">Murales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="artistas.html">Artistas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="eventos.html">Eventos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="historia.html">Historia</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+<div class="hero-section">
+
+    
+    <div class="overlay"></div> <!-- Capa oscura superpuesta -->
+    
+    <div class="container hero-content">
+        <div class="row align-items-center">
+            <!-- Columna de texto -->
+            <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="display-4 fw-bold">Su historia</h1>
+                <p class="lead">BA Paste Up comenzó en Buenos Aires en 2017 como una iniciativa de varios artistas urbanos interesados en la técnica del "paste up", una modalidad de arte urbano que consiste en pegar ilustraciones o pósters en las paredes de la ciudad.</p>
+                <p class="lead">Inspirados por la escena del street art en otras ciudades del mundo, como Berlín y Londres, el colectivo decidió llevar esta técnica al entorno local, adaptándola al contexto argentino.</p>
+                <a href="https://www.clarin.com/entremujeres/entretenimientos/arte-y-cultura/ba-paste-up-palermo-soho_0_NJBt2IEMb.html" > Articulo en Clarin</a>
+            </div>
+
+            <!-- Columna de imagen redonda -->
+            <div class="col-lg-6 text-center">
+                <img src="img/grupo.jpg" alt="Artistas trabajando en un mural" class="rounded-circle rounded-image img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
